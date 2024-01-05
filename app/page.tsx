@@ -3,12 +3,11 @@ import styles from './page.module.css'
 
 import { useState } from 'react';
 
-function Square({ value, onSquareClick }) {
-  return (
-    <button className="square" onClick={onSquareClick}>
+function Square(_a) {
+    var value = _a.value, onSquareClick = _a.onSquareClick;
+    return (<button className="square" onClick={onSquareClick}>
       {value}
-    </button>
-  );
+    </button>);
 }
 export default function Home() {
   return (

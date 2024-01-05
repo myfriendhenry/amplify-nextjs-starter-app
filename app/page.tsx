@@ -1,6 +1,15 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import { useState } from 'react';
+
+function Square({ value, onSquareClick }) {
+  return (
+    <button className="square" onClick={onSquareClick}>
+      {value}
+    </button>
+  );
+}
 export default function Home() {
   return (
     <main className={styles.main}>

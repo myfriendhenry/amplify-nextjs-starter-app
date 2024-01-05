@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          VERSION 2 &nbsp;
+          VERSION 2.1 &nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
